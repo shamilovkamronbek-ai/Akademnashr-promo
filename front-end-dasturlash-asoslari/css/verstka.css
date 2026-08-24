@@ -1,0 +1,12 @@
+.k1, .k2 {
+    width: 700px;
+    height: 250px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.k1 img, .k2 img {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 10px;
+}
