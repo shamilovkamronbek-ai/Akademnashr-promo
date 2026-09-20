@@ -5,8 +5,16 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 /* SITE-HEADER */
 .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
 }
 
@@ -158,6 +166,12 @@ body {
   background-color: #f8f8f8;
 }
 
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-footer ul {
   list-style: none;
 }
@@ -201,6 +215,6 @@ body {
   color: #ff7500;
 }
 
-.site-footer-links a:hover {
+.site-footer-links a:active {
   opacity: 0.6;
 }
